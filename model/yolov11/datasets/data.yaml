@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 20
+names: ['Poodle_dog', 'american_shorthair_cat', 'bombay_cat', 'calico_cat', 'chihuahua_dog', 'corgi_dog', 'domestic_long_hair_cat', 'domestic_short_hair_cat', 'french_bulldog_dog', 'golden_retriever_dog', 'labrador_retriever_dog', 'maine_coon_cat', 'manx_cat', 'persian_cat', 'pomeranian_dog', 'pug_dog', 'russian_blue_cat', 'shih_tzu_dog', 'siamese_cat', 'siberian_husky_dog']
+
+roboflow:
+  workspace: gg-lqke0
+  project: dog-cat-breeds-2-kqhkt
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/gg-lqke0/dog-cat-breeds-2-kqhkt/dataset/1

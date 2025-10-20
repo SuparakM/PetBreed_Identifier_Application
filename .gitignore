@@ -1,0 +1,85 @@
+# ============================
+# Python
+# ============================
+# Virtual environments
+venv/
+.venv/
+ENV/
+env/
+*.egg-info/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Large ML model checkpoints / datasets
+*.h5
+*.keras
+*.hdf5
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.pb
+*.tflite
+*.joblib
+*.pkl
+*.npy
+*.npz
+
+# ============================
+# Flutter / Android / iOS
+# ============================
+# Flutter build
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter-versions
+.packages
+.pub-cache/
+.pub/
+.melos_tool/
+.melos_tool_deps/
+generated_plugin_registrant.dart
+
+# Android
+android/.gradle/
+android/app/build/
+*.apk
+*.aab
+*.keystore
+
+# iOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/App.framework
+ios/ServiceDefinitions.json
+ios/Runner/GeneratedPluginRegistrant.*
+
+# macOS
+macos/Flutter/Flutter-Debug.xcconfig
+macos/Flutter/Flutter-Release.xcconfig
+macos/Flutter/Generated.xcconfig
+
+# ============================
+# VS Code / IDE
+# ============================
+.vscode/
+.idea/
+*.iml
+
+# ============================
+# OS
+# ============================
+.DS_Store
+Thumbs.db

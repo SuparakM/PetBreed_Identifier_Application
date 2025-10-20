@@ -1,0 +1,7 @@
+uvicorn main:app --reload --host 0.0.0.0 --port 8000
+
+--host 0.0.0.0 → ให้เครื่องอื่น (รวมมือถือ/Emulator) เข้าถึงได้
+
+--port 8000 → จะได้ URL เช่น http://127.0.0.1:8000
+
+Android Emulator: http://10.0.2.2:8000/analyze
